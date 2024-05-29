@@ -1,5 +1,6 @@
 #Import necessary libraries..
 from tkinter import *
+import streamlit_app
 from tkinter import messagebox
 from ml_models import knn_model,rf_model,nb_model,dt_model
 import db_operations as db
